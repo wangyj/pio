@@ -23,4 +23,14 @@
     numerator = n;
 }
 
+-(Fraction *) initWith: (int) n: (int) d
+{
+    self = [super init];
+
+    if (self)
+        [self setTo: n over: d];
+
+    return self;
+}
+
 @end

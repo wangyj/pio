@@ -11,5 +11,6 @@
 -(void) print;
 -(void) setTo: (int) n over: (int) d;
 -(double) convertToNum;
+-(Fraction *) initWith: (int) n: (int) d;
 
 @end
