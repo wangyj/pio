@@ -41,4 +41,9 @@
 	[super dealloc];
 }
 
+-(void) sort
+{
+	[book sortUsingSelector: @selector(compareNames:)];
+}
+
 @end

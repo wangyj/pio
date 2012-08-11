@@ -12,5 +12,6 @@
 -(int) entries;
 -(void) list;
 -(void) dealloc;
+-(void) sort;
 
 @end
